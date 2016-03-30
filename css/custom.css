@@ -1,0 +1,56 @@
+@import url(font-awesome.min.css);
+@import url(bootstrap.min.css);
+@import url(horizontal-timeline-style.css);
+
+/*** Navigation ***/
+ul.nav,
+ul.nav > li,
+ul.nav > li > a,
+ul.nav > li > a:hover,
+ul.nav > li > a:active {
+    background-color: transparent !important;
+}
+ul.dropdown-menu,
+ul.dropdown-menu > li {
+    background-color: transparent !important;
+    border: 0 !important;
+}
+ul.dropdown-menu > li > a:hover {
+    background-color: transparent !important;
+}
+a.dropdown-toggle,
+a.dropdown-toggle:hover,
+a.dropdown-toggle:active {
+    background-color: transparent !important;
+}
+
+ul.cd-timeline-navigation {
+    list-style: none !important;
+}
+.events ol {
+    list-style: none !important;
+}
+.events-content ol {
+    list-style: none !important;
+}
+@media (min-width: 769px) {
+    #banner p {
+        font-size: 3.5rem !important;
+    }
+    .events a {
+        font-size: 1.3rem !important;
+    }
+}
+@media (max-width: 768px) and (min-width: 482px){
+    .events a {
+        font-size: 1.1rem !important;
+    }
+}
+@media (max-width: 481px) {
+    .events a {
+        font-size: 0.9rem !important;
+    }
+}
+
+
+
